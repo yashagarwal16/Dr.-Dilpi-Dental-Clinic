@@ -812,7 +812,8 @@ button, input, textarea { font: inherit; }
 
 .site-footer .brand small,
 .site-footer p,
-.site-footer a { color: #b7c8d5; }
+.site-footer a,
+.site-footer span { color: #b7c8d5; }
 
 .footer {
   justify-content: space-between;
@@ -822,7 +823,8 @@ button, input, textarea { font: inherit; }
 
 .footer > div { flex: 1; min-width: 0; }
 .footer h3 { margin: 0 0 1rem; color: var(--white); font-size: 1rem; }
-.footer a { display: block; margin-bottom: 0.65rem; }
+.footer a,
+.footer span { display: block; margin-bottom: 0.65rem; }
 .brand--footer { margin-bottom: 1rem; }
 
 .floating-actions {

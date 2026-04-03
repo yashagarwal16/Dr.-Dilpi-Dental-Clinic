@@ -91,7 +91,7 @@ if (bookingForm && formMessage) {
     event.preventDefault();
     const formData = new FormData(bookingForm);
     const name = formData.get("name");
-    formMessage.textContent = `Thank you, ${name}. Your request has been received. This demo is ready to connect to WhatsApp, email, CRM, or a real booking backend.`;
+    formMessage.textContent = `Thank you, ${name}. Your request has been received. The clinic team can now confirm your appointment by call or WhatsApp.`;
     bookingForm.reset();
   });
 }
